@@ -17,11 +17,25 @@ h2 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 44px;
+  line-height: 2;
 }
-
+h2 {
+  font-size: 44px;
+}
 p {
   font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+.text-muted {
+  color: #6c757d;
 }
 
 .hero {
@@ -51,4 +65,11 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+.m-5 {
+  margin: 3rem;
+}
+
+.btn:hover {
+  color: #212529;
 }
